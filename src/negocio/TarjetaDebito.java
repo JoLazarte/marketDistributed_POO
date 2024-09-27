@@ -1,4 +1,4 @@
-package com.marketdistributed;
+package negocio;
 
 public class TarjetaDebito extends MedioPago {
     @Override

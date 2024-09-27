@@ -1,4 +1,4 @@
-package com.marketdistributed;
+package negocio;
 
 public class TarjetaCredito extends MedioPago {
     private int cuotas;
@@ -20,7 +20,7 @@ public class TarjetaCredito extends MedioPago {
             case 6:
                 return total * 1.20; // 20% de recargo
             default:
-                throw new IllegalStateException("Número de cuotas no válido");
+                throw new IllegalStateException("Nï¿½mero de cuotas no vï¿½lido");
         }
     }
 }

@@ -1,6 +1,8 @@
-package com.marketdistributed;
+package usuario;
 
 import java.util.Scanner;
+
+import negocio.Catalogo;
 
 public class SistemaFacturacion {
     private static Catalogo catalogo = new Catalogo();
